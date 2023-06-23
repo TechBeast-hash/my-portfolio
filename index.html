@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>personal portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/fa1f1dc64d.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/Picsart_23-05-23_16-15-27-030.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi, I'm <span>Karthik</span><br>From India</h1>
+                </div>    
+            </div>
+ <!----------------------about---------------------------->           
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/Picsart_23-05-23_16-12-37-762.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time. Currently, I am looking for new career opportunities my current job position cannot provide.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/App Interface</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Andriod/IOS apps</li>
+                                <li><span>Lifestyle Photography</span><br>Capturing Natural Environment</li>
+                                <li><span>Editography</span><br>Photo/video editing programs</li>
+                            </ul>                      
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br>Internship on AI at DHAAPS online training.</li>
+                                <li><span>2022-2023</span><br>Sous CHEF in a startup franchise outlet.</li>
+                                <li><span>2021-2022</span><br>Acquiring Photography skills.</li>
+                                <li><span>2018-2021</span><br>Acquiring Editography skills.</li>
+                            </ul>                      
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2021-2024</span><br>BTECH in CSE from MGU Nalgonda.</li>
+                                <li><span>2019-2021</span><br>Diploma in Computer Science from GPT Nalgonda.</li>
+                            </ul>                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------services------------------------>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                   <div>
+                    <i class="fa-solid fa-code fa-lg"></i>
+                        <h2>Web Design</h2>
+                        <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing
+                             a website in a way that is functional and offers a good user experience. User experience is central
+                              to the web designing process. Websites have an array of elements presented in ways
+                               that make them easy to navigate.</p>
+                        <a href="#">Learn more</a>
+                    </div> 
+                   <div>
+                    <i class="fa-solid fa-paint-roller fa-xl"></i>
+                       <h2>UI/UX Design</h2>
+                        <p>User Interface Design (also commonly referred to as UI Design) is where the visuals come into the process.
+                             Once the app has its UX structure, the elements are ready to be enhanced with brand colors, fonts, images,
+                              and other design elements.</p>
+                        <a href="#">Learn more</a>
+                    </div> 
+                   <div>
+                    <i class="fa-solid fa-video fa-xl"></i>
+                        <h2>Photography</h2>
+                        <p>Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. It is employed in many fields of science, manufacturing (e.g., photolithography), and business, as well as its more direct uses for art, film and video production, recreational purposes, hobby, and mass communication.</p>
+                        <a href="#">Learn more</a>
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    <!----------------------------Portfolio------------------------> 
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>  
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Picsart_23-05-23_22-55-16-554.png">
+                    <div class="layer">
+                        <h3>Web Dev</h3>
+                        <p>Website without visitors is like a ship
+                            lost in horizon.
+                        </p>
+                        <a href="file:///K:/wp/login%20page/index.html"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Picsart_23-05-23_22-58-54-545.png">
+                    <div class="layer">
+                        <h3>UI/UX Designer</h3>
+                        <p>When UX doesn't consider all users,shouldn't it
+                            be known as SOME User Experience.
+                        </p>
+                        <a href="https://dribbble.com/tags/mobile"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Picsart_23-05-23_23-01-39-013.png">
+                    <div class="layer">
+                        <h3>Photo/Edito-graphy</h3>
+                        <p>You don't take photograph,you make it.
+                        </p>
+                        <a href="https://www.instagram.com/mr.yuzdan/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>   
+<!----------------------contact---------------------------------------> 
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>sripadakarthik37@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6303589383</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100011244842001&sk=following"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/__mr.official__20/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/karthikeya-sripada-724a7a275/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/TechBeast-hash"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>>
+</div>   
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.left="0";
+            }
+            function closemenu(){
+                sidemenu.style.left="-140px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwPkGKLew3ldwad5-HnGcRmAavUPq_OF1nD5B-R-d4vDiobxmtda6Mnv3ptJhBqb09_sw/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent sucessfully"
+                    setTimeout(function(){
+                        msg.innerHTML = "" 
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
